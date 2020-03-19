@@ -1,0 +1,6 @@
+framework module Pods_WASUIKit_Example {
+  umbrella header "Pods-WASUIKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

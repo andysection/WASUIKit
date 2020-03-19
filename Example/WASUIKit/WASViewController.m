@@ -7,6 +7,7 @@
 //
 
 #import "WASViewController.h"
+#import "UIButton+Category.h"
 
 @interface WASViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

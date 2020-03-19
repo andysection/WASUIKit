@@ -41,7 +41,7 @@
 		0C2F8E7EFB9F2DFBAA0A318B /* Pods_WASUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WASUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6ACAEE6389F4EFB3814D3D /* Pods-WASUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WASUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WASUIKit_Tests/Pods-WASUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49443E7E8AFEDD63CF0CAD59 /* Pods_WASUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WASUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50937F42DFE81B0C9FC295D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		50937F42DFE81B0C9FC295D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WASUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WASUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94A80096C7616A8255CFB916 /* Pods-WASUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WASUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WASUIKit_Example/Pods-WASUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C475F5F79BFDB46AB0A73B05 /* Pods-WASUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WASUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WASUIKit_Example/Pods-WASUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD3300DD826540276678B1C7 /* WASUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WASUIKit.podspec; path = ../WASUIKit.podspec; sourceTree = "<group>"; };
-		F3AC4822C0DC712455E12C11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD3300DD826540276678B1C7 /* WASUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WASUIKit.podspec; path = ../WASUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3AC4822C0DC712455E12C11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				2F6ACAEE6389F4EFB3814D3D /* Pods-WASUIKit_Tests.debug.xcconfig */,
 				06DD2DAC99BB5A5ADB036A4F /* Pods-WASUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
