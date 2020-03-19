@@ -1,4 +1,5 @@
 # WASUIKit
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/398148947@qq.com/WASUIKit.svg?style=flat)](https://travis-ci.org/398148947@qq.com/WASUIKit)
 [![Version](https://img.shields.io/cocoapods/v/WASUIKit.svg?style=flat)](https://cocoapods.org/pods/WASUIKit)
@@ -27,3 +28,6 @@ pod 'WASUIKit'
 ## License
 
 WASUIKit is available under the MIT license. See the LICENSE file for more info.
+=======
+easy dev
+>>>>>>> 0d495b5b4fafe6ea9cf6402299698f794a88ada8
